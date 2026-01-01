@@ -30,9 +30,9 @@ body {
 }
 
 button {
-  display: block;
+  display: block; /*this makes the button respect the margin auto*/
   background: white;
   border: 1px solid #eee;
-  padding: 10px 20px  ;
-  margin: 0 auto;
+  padding: 10px 20px;
+  margin: 0 auto; /*this centers the button*/
 }
